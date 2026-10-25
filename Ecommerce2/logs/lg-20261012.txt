@@ -1,0 +1,166 @@
+2026-10-12 10:15:45.351 +05:30 [INF]  - Application starting...
+2026-10-12 10:15:46.250 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory - Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-10-12 10:15:46.400 +05:30 [INF]  - Application started successfully
+2026-10-12 10:15:46.403 +05:30 [DBG] Microsoft.Extensions.Hosting.Internal.Host - Hosting starting
+2026-10-12 10:15:46.459 +05:30 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\AbhinaKrishnam\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-10-12 10:15:46.482 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\AbhinaKrishnam\AppData\Local\ASP.NET\DataProtection-Keys\key-b39addc4-1b4c-4716-8d97-c3a2e4029c74.xml'.
+2026-10-12 10:15:46.616 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - Found key {b39addc4-1b4c-4716-8d97-c3a2e4029c74}.
+2026-10-12 10:15:46.643 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver - Considering key {b39addc4-1b4c-4716-8d97-c3a2e4029c74} with expiration date 2026-12-27 04:49:43Z as default key.
+2026-10-12 10:15:46.652 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.TypeForwardingActivator - Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-10-12 10:15:46.655 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor - Decrypting secret element using Windows DPAPI.
+2026-10-12 10:15:46.657 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.TypeForwardingActivator - Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-10-12 10:15:46.662 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory - Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-10-12 10:15:46.663 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory - Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-10-12 10:15:46.665 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider - Using key {b39addc4-1b4c-4716-8d97-c3a2e4029c74} as the default key.
+2026-10-12 10:15:46.666 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService - Key ring with default key {b39addc4-1b4c-4716-8d97-c3a2e4029c74} was loaded during application startup.
+2026-10-12 10:15:46.678 +05:30 [DBG] Microsoft.AspNetCore.Watch.BrowserRefresh.BlazorWasmHotReloadMiddleware - Middleware loaded
+2026-10-12 10:15:46.684 +05:30 [DBG] Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware - Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (14925 B).
+2026-10-12 10:15:46.686 +05:30 [DBG] Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware - Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-10-12 10:15:46.793 +05:30 [DBG] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-10-12 10:15:46.795 +05:30 [DBG] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - Wildcard detected, all requests with hosts will be allowed.
+2026-10-12 10:15:46.804 +05:30 [DBG] Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware - Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-10-12 10:15:46.805 +05:30 [DBG] Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly Ecommerce2
+2026-10-12 10:15:46.807 +05:30 [DBG] Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-10-12 10:15:46.808 +05:30 [DBG] Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-10-12 10:15:46.808 +05:30 [DBG] Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-10-12 10:15:46.863 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider - Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-10-12 10:15:46.864 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider - Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-10-12 10:15:46.871 +05:30 [DBG] Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18086456104325218305" disconnecting.
+2026-10-12 10:15:46.905 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/ - null null
+2026-10-12 10:15:46.904 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/swagger - null null
+2026-10-12 10:15:46.981 +05:30 [DBG] Microsoft.Extensions.Hosting.Internal.Host - Hosting started
+2026-10-12 10:15:47.137 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-12 10:15:47.141 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-12 10:15:47.202 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/swagger'
+2026-10-12 10:15:47.202 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/'
+2026-10-12 10:15:47.204 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'swagger/{**path}' with route pattern 'swagger/{**path}' is valid for the request path '/swagger'
+2026-10-12 10:15:47.204 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'Ecommerce2.API.Controller.RootController.ApiRoot (Ecommerce2)' with route pattern '' is valid for the request path '/'
+2026-10-12 10:15:47.204 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.204 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'Ecommerce2.API.Controller.RootController.ApiRoot (Ecommerce2)'
+2026-10-12 10:15:47.205 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-12 10:15:47.205 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-12 10:15:47.427 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-12 10:15:47.427 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-12 10:15:47.430 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.430 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ecommerce2.API.Controller.RootController.ApiRoot (Ecommerce2)'
+2026-10-12 10:15:47.440 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.482 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "ApiRoot", controller = "Root"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Object] ApiRoot() on controller Ecommerce2.API.Controller.RootController (Ecommerce2).
+2026-10-12 10:15:47.485 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of authorization filters (in the following order): ["None"]
+2026-10-12 10:15:47.485 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of resource filters (in the following order): ["None"]
+2026-10-12 10:15:47.486 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-10-12 10:15:47.486 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of exception filters (in the following order): ["None"]
+2026-10-12 10:15:47.486 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-10-12 10:15:47.488 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing controller factory for controller Ecommerce2.API.Controller.RootController (Ecommerce2)
+2026-10-12 10:15:47.488 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed controller factory for controller Ecommerce2.API.Controller.RootController (Ecommerce2)
+2026-10-12 10:15:47.489 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-12 10:15:47.490 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-12 10:15:47.490 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-12 10:15:47.490 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-12 10:15:47.496 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing action method Ecommerce2.API.Controller.RootController.ApiRoot (Ecommerce2) - Validation state: "Valid"
+2026-10-12 10:15:47.507 +05:30 [DBG] Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18302628895028936705" disconnecting.
+2026-10-12 10:15:47.518 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/swagger/index.html - null null
+2026-10-12 10:15:47.526 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action method Ecommerce2.API.Controller.RootController.ApiRoot (Ecommerce2), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.6457ms.
+2026-10-12 10:15:47.527 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-12 10:15:47.528 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-12 10:15:47.528 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-12 10:15:47.528 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-12 10:15:47.528 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-12 10:15:47.531 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-12 10:15:47.533 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2026-10-12 10:15:47.536 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-12 10:15:47.547 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-10-12 10:15:47.548 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/swagger/index.html'
+2026-10-12 10:15:47.548 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'swagger/{**path}' with route pattern 'swagger/{**path}' is valid for the request path '/swagger/index.html'
+2026-10-12 10:15:47.548 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.548 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-12 10:15:47.552 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/swagger - 301 null null 654.4677ms
+2026-10-12 10:15:47.561 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - No information found on request to perform content negotiation.
+2026-10-12 10:15:47.561 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-10-12 10:15:47.561 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select the first formatter in the output formatters list which can write the result.
+2026-10-12 10:15:47.562 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-10-12 10:15:47.562 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing OkObjectResult, writing value of type '<>f__AnonymousType13`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType14`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Ecommerce2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-12 10:15:47.563 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-12 10:15:47.564 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.634 +05:30 [DBG] Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware - Browser refresh script injection skipped. Status code: 200, Content type: application/json; charset=utf-8
+2026-10-12 10:15:47.645 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2026-10-12 10:15:47.645 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-12 10:15:47.645 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-12 10:15:47.647 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action Ecommerce2.API.Controller.RootController.ApiRoot (Ecommerce2) in 159.1608ms
+2026-10-12 10:15:47.647 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ecommerce2.API.Controller.RootController.ApiRoot (Ecommerce2)'
+2026-10-12 10:15:47.648 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/ - 200 null application/json; charset=utf-8 751.0596ms
+2026-10-12 10:15:47.676 +05:30 [DBG] Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware - Response markup is scheduled to include Browser Link script injection.
+2026-10-12 10:15:47.677 +05:30 [DBG] Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware - Response markup is scheduled to include browser refresh script injection.
+2026-10-12 10:15:47.706 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.706 +05:30 [DBG] Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware - Response markup was updated to include Browser Link script injection.
+2026-10-12 10:15:47.715 +05:30 [DBG] Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware - Response markup was updated to include browser refresh script injection.
+2026-10-12 10:15:47.715 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/swagger/index.html - 200 null text/html;charset=utf-8 197.4131ms
+2026-10-12 10:15:47.718 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/swagger/index.css - null null
+2026-10-12 10:15:47.758 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/swagger/index.js - null null
+2026-10-12 10:15:47.757 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/swagger/swagger-ui.css - null null
+2026-10-12 10:15:47.757 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/_framework/aspnetcore-browser-refresh.js - null null
+2026-10-12 10:15:47.758 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-12 10:15:47.758 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/swagger/swagger-ui-bundle.js - null null
+2026-10-12 10:15:47.758 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/swagger/index.css'
+2026-10-12 10:15:47.758 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-12 10:15:47.758 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'swagger/{**path}' with route pattern 'swagger/{**path}' is valid for the request path '/swagger/index.css'
+2026-10-12 10:15:47.758 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/swagger/swagger-ui-bundle.js'
+2026-10-12 10:15:47.758 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.758 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'swagger/{**path}' with route pattern 'swagger/{**path}' is valid for the request path '/swagger/swagger-ui-bundle.js'
+2026-10-12 10:15:47.758 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-12 10:15:47.758 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.758 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-12 10:15:47.758 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/swagger/index.js'
+2026-10-12 10:15:47.758 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'swagger/{**path}' with route pattern 'swagger/{**path}' is valid for the request path '/swagger/index.js'
+2026-10-12 10:15:47.758 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-12 10:15:47.758 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.758 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-12 10:15:47.758 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.758 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-12 10:15:47.758 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.759 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-12 10:15:47.759 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/swagger/swagger-ui.css'
+2026-10-12 10:15:47.759 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'swagger/{**path}' with route pattern 'swagger/{**path}' is valid for the request path '/swagger/swagger-ui.css'
+2026-10-12 10:15:47.758 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-12 10:15:47.759 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-12 10:15:47.759 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.759 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.759 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-12 10:15:47.759 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.759 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-12 10:15:47.759 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.760 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/swagger/index.js - 200 null application/javascript;charset=utf-8 1.995ms
+2026-10-12 10:15:47.760 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/_vs/browserLink - null null
+2026-10-12 10:15:47.762 +05:30 [DBG] Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware - Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-10-12 10:15:47.763 +05:30 [DBG] Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18158513706953080833" disconnecting.
+2026-10-12 10:15:47.763 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/swagger/swagger-ui-standalone-preset.js - null null
+2026-10-12 10:15:47.764 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/_framework/aspnetcore-browser-refresh.js - 200 14925 application/javascript; charset=utf-8 38.8705ms
+2026-10-12 10:15:47.764 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-12 10:15:47.764 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2026-10-12 10:15:47.764 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'swagger/{**path}' with route pattern 'swagger/{**path}' is valid for the request path '/swagger/swagger-ui-standalone-preset.js'
+2026-10-12 10:15:47.764 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.764 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-12 10:15:47.765 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-12 10:15:47.765 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.785 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.785 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/swagger/index.css - 200 152 text/css 66.7341ms
+2026-10-12 10:15:47.788 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.789 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.789 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/swagger/swagger-ui.css - 200 26499 text/css 66.4488ms
+2026-10-12 10:15:47.789 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/swagger/swagger-ui-standalone-preset.js - 200 77731 text/javascript 26.1354ms
+2026-10-12 10:15:47.795 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'swagger/{**path}'
+2026-10-12 10:15:47.875 +05:30 [DBG] Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "17942340916249362433" disconnecting.
+2026-10-12 10:15:47.876 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/swagger/swagger-ui-bundle.js - 200 421507 text/javascript 117.7408ms
+2026-10-12 10:15:47.896 +05:30 [DBG] Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "17798225728173506561" disconnecting.
+2026-10-12 10:15:47.899 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/_vs/browserLink - 200 null text/javascript; charset=UTF-8 139.4513ms
+2026-10-12 10:15:47.993 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/swagger/v1/swagger.json - null null
+2026-10-12 10:15:47.993 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-12 10:15:47.993 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 2 candidate(s) found for the request path '/swagger/v1/swagger.json'
+2026-10-12 10:15:47.996 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'HTTP: GET, HEAD /swagger/{documentName}/swagger.{extension:regex(^(json|ya?ml)$)}' with route pattern '/swagger/{documentName}/swagger.{extension:regex(^(json|ya?ml)$)}' is valid for the request path '/swagger/v1/swagger.json'
+2026-10-12 10:15:47.996 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'swagger/{**path}' with route pattern 'swagger/{**path}' is valid for the request path '/swagger/v1/swagger.json'
+2026-10-12 10:15:47.996 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'HTTP: GET, HEAD /swagger/{documentName}/swagger.{extension:regex(^(json|ya?ml)$)}'
+2026-10-12 10:15:47.996 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-12 10:15:47.997 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-12 10:15:47.997 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HTTP: GET, HEAD /swagger/{documentName}/swagger.{extension:regex(^(json|ya?ml)$)}'
+2026-10-12 10:15:48.273 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HTTP: GET, HEAD /swagger/{documentName}/swagger.{extension:regex(^(json|ya?ml)$)}'
+2026-10-12 10:15:48.277 +05:30 [DBG] Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18230571296696041475" disconnecting.
+2026-10-12 10:15:48.277 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 284.081ms

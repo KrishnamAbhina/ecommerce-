@@ -1,0 +1,1133 @@
+2026-10-25 09:17:19.278 +05:30 [INF]  - Application starting...
+2026-10-25 09:17:21.007 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory - Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-10-25 09:17:21.256 +05:30 [INF]  - Application started successfully
+2026-10-25 09:17:21.261 +05:30 [DBG] Microsoft.Extensions.Hosting.Internal.Host - Hosting starting
+2026-10-25 09:17:21.344 +05:30 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\AbhinaKrishnam\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-10-25 09:17:21.387 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\AbhinaKrishnam\AppData\Local\ASP.NET\DataProtection-Keys\key-b39addc4-1b4c-4716-8d97-c3a2e4029c74.xml'.
+2026-10-25 09:17:21.496 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - Found key {b39addc4-1b4c-4716-8d97-c3a2e4029c74}.
+2026-10-25 09:17:21.546 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver - Considering key {b39addc4-1b4c-4716-8d97-c3a2e4029c74} with expiration date 2026-12-27 04:49:43Z as default key.
+2026-10-25 09:17:21.560 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.TypeForwardingActivator - Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-10-25 09:17:21.568 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor - Decrypting secret element using Windows DPAPI.
+2026-10-25 09:17:21.572 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.TypeForwardingActivator - Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-10-25 09:17:21.584 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory - Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-10-25 09:17:21.589 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory - Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-10-25 09:17:21.594 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider - Using key {b39addc4-1b4c-4716-8d97-c3a2e4029c74} as the default key.
+2026-10-25 09:17:21.596 +05:30 [DBG] Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService - Key ring with default key {b39addc4-1b4c-4716-8d97-c3a2e4029c74} was loaded during application startup.
+2026-10-25 09:17:21.627 +05:30 [DBG] Microsoft.AspNetCore.Watch.BrowserRefresh.BlazorWasmHotReloadMiddleware - Middleware loaded
+2026-10-25 09:17:21.641 +05:30 [DBG] Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware - Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (14925 B).
+2026-10-25 09:17:21.642 +05:30 [DBG] Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware - Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-10-25 09:17:21.905 +05:30 [DBG] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-10-25 09:17:21.909 +05:30 [DBG] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - Wildcard detected, all requests with hosts will be allowed.
+2026-10-25 09:17:21.928 +05:30 [DBG] Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware - Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-10-25 09:17:21.936 +05:30 [DBG] Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly Ecommerce2
+2026-10-25 09:17:21.937 +05:30 [DBG] Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-10-25 09:17:21.938 +05:30 [DBG] Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-10-25 09:17:21.938 +05:30 [DBG] Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-10-25 09:17:21.983 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider - Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-10-25 09:17:21.986 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider - Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-10-25 09:17:22.005 +05:30 [DBG] Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "17942340946314133507" disconnecting.
+2026-10-25 09:17:22.070 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/ - null null
+2026-10-25 09:17:22.068 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/swagger/index.html - null null
+2026-10-25 09:17:22.360 +05:30 [DBG] Microsoft.Extensions.Hosting.Internal.Host - Hosting started
+2026-10-25 09:17:23.179 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-25 09:17:23.180 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-25 09:17:23.272 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/'
+2026-10-25 09:17:23.272 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/swagger/index.html'
+2026-10-25 09:17:23.298 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'Ecommerce2.API.Controller.RootController.ApiRoot (Ecommerce2)' with route pattern '' is valid for the request path '/'
+2026-10-25 09:17:23.300 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'swagger/{**path}' with route pattern 'swagger/{**path}' is valid for the request path '/swagger/index.html'
+2026-10-25 09:17:23.303 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'swagger/{**path}'
+2026-10-25 09:17:23.303 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'Ecommerce2.API.Controller.RootController.ApiRoot (Ecommerce2)'
+2026-10-25 09:17:23.307 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-25 09:17:23.308 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-25 09:17:23.439 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-25 09:17:23.439 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-25 09:17:23.444 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'swagger/{**path}'
+2026-10-25 09:17:23.444 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ecommerce2.API.Controller.RootController.ApiRoot (Ecommerce2)'
+2026-10-25 09:17:23.491 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "ApiRoot", controller = "Root"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Object] ApiRoot() on controller Ecommerce2.API.Controller.RootController (Ecommerce2).
+2026-10-25 09:17:23.495 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of authorization filters (in the following order): ["None"]
+2026-10-25 09:17:23.495 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of resource filters (in the following order): ["None"]
+2026-10-25 09:17:23.495 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-10-25 09:17:23.496 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of exception filters (in the following order): ["None"]
+2026-10-25 09:17:23.496 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-10-25 09:17:23.501 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing controller factory for controller Ecommerce2.API.Controller.RootController (Ecommerce2)
+2026-10-25 09:17:23.503 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed controller factory for controller Ecommerce2.API.Controller.RootController (Ecommerce2)
+2026-10-25 09:17:23.504 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:17:23.505 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:17:23.505 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:17:23.505 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:17:23.511 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing action method Ecommerce2.API.Controller.RootController.ApiRoot (Ecommerce2) - Validation state: "Valid"
+2026-10-25 09:17:23.522 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action method Ecommerce2.API.Controller.RootController.ApiRoot (Ecommerce2), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.5641ms.
+2026-10-25 09:17:23.525 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:17:23.525 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:17:23.525 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:17:23.525 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:17:23.526 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:17:23.526 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:17:23.529 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2026-10-25 09:17:23.534 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-10-25 09:17:23.539 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - No information found on request to perform content negotiation.
+2026-10-25 09:17:23.540 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-10-25 09:17:23.540 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select the first formatter in the output formatters list which can write the result.
+2026-10-25 09:17:23.541 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-10-25 09:17:23.542 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing OkObjectResult, writing value of type '<>f__AnonymousType14`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType15`3[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Ecommerce2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-25 09:17:23.646 +05:30 [DBG] Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware - Browser refresh script injection skipped. Status code: 200, Content type: application/json; charset=utf-8
+2026-10-25 09:17:23.678 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2026-10-25 09:17:23.678 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:17:23.678 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:17:23.690 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action Ecommerce2.API.Controller.RootController.ApiRoot (Ecommerce2) in 184.0506ms
+2026-10-25 09:17:23.691 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ecommerce2.API.Controller.RootController.ApiRoot (Ecommerce2)'
+2026-10-25 09:17:23.741 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'swagger/{**path}'
+2026-10-25 09:17:23.751 +05:30 [DBG] Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18302628907913838609" disconnecting.
+2026-10-25 09:17:23.765 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/swagger/index.html - 304 null null 1720.5721ms
+2026-10-25 09:17:23.820 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/ - 200 null application/json; charset=utf-8 1776.5917ms
+2026-10-25 09:17:23.899 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/swagger/swagger-ui.css - null null
+2026-10-25 09:17:23.899 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-25 09:17:23.901 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/swagger/index.css - null null
+2026-10-25 09:17:23.901 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-25 09:17:23.901 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/swagger/index.css'
+2026-10-25 09:17:23.902 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'swagger/{**path}' with route pattern 'swagger/{**path}' is valid for the request path '/swagger/index.css'
+2026-10-25 09:17:23.902 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'swagger/{**path}'
+2026-10-25 09:17:23.902 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-25 09:17:23.901 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/swagger/swagger-ui.css'
+2026-10-25 09:17:23.903 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/_framework/aspnetcore-browser-refresh.js - null null
+2026-10-25 09:17:23.944 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'swagger/{**path}' with route pattern 'swagger/{**path}' is valid for the request path '/swagger/swagger-ui.css'
+2026-10-25 09:17:23.944 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/swagger/swagger-ui-bundle.js - null null
+2026-10-25 09:17:23.944 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'swagger/{**path}'
+2026-10-25 09:17:23.944 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-25 09:17:23.944 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-25 09:17:23.944 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/swagger/swagger-ui-bundle.js'
+2026-10-25 09:17:23.944 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'swagger/{**path}' with route pattern 'swagger/{**path}' is valid for the request path '/swagger/swagger-ui-bundle.js'
+2026-10-25 09:17:23.944 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'swagger/{**path}'
+2026-10-25 09:17:23.944 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-25 09:17:23.946 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/_vs/browserLink - null null
+2026-10-25 09:17:23.947 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/swagger/swagger-ui-standalone-preset.js - null null
+2026-10-25 09:17:23.947 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-25 09:17:23.947 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2026-10-25 09:17:23.948 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'swagger/{**path}' with route pattern 'swagger/{**path}' is valid for the request path '/swagger/swagger-ui-standalone-preset.js'
+2026-10-25 09:17:23.948 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'swagger/{**path}'
+2026-10-25 09:17:23.948 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-25 09:17:23.949 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-25 09:17:23.949 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-25 09:17:23.949 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'swagger/{**path}'
+2026-10-25 09:17:23.949 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-25 09:17:23.949 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'swagger/{**path}'
+2026-10-25 09:17:23.949 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-25 09:17:23.959 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'swagger/{**path}'
+2026-10-25 09:17:23.959 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'swagger/{**path}'
+2026-10-25 09:17:23.969 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/swagger/index.js - null null
+2026-10-25 09:17:23.969 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-25 09:17:23.969 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/swagger/index.js'
+2026-10-25 09:17:23.969 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'swagger/{**path}' with route pattern 'swagger/{**path}' is valid for the request path '/swagger/index.js'
+2026-10-25 09:17:23.969 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'swagger/{**path}'
+2026-10-25 09:17:23.969 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-25 09:17:23.970 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-25 09:17:23.970 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'swagger/{**path}'
+2026-10-25 09:17:23.970 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'swagger/{**path}'
+2026-10-25 09:17:23.972 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/swagger/index.js - 304 null null 3.3394ms
+2026-10-25 09:17:23.973 +05:30 [DBG] Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "17726168134135578625" disconnecting.
+2026-10-25 09:17:23.998 +05:30 [DBG] Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware - Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-10-25 09:17:23.999 +05:30 [DBG] Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "17870283322211434497" disconnecting.
+2026-10-25 09:17:23.999 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/_framework/aspnetcore-browser-refresh.js - 200 14925 application/javascript; charset=utf-8 94.8375ms
+2026-10-25 09:17:24.038 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'swagger/{**path}'
+2026-10-25 09:17:24.038 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'swagger/{**path}'
+2026-10-25 09:17:24.039 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/swagger/swagger-ui-standalone-preset.js - 304 null null 91.5407ms
+2026-10-25 09:17:24.039 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/swagger/swagger-ui-bundle.js - 304 null null 94.8839ms
+2026-10-25 09:17:24.040 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'swagger/{**path}'
+2026-10-25 09:17:24.040 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/swagger/index.css - 304 null null 139.7112ms
+2026-10-25 09:17:24.041 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'swagger/{**path}'
+2026-10-25 09:17:24.042 +05:30 [DBG] Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18230571309580943384" disconnecting.
+2026-10-25 09:17:24.042 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/swagger/swagger-ui.css - 304 null null 143.2026ms
+2026-10-25 09:17:24.232 +05:30 [DBG] Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18374686484771897364" disconnecting.
+2026-10-25 09:17:24.234 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/_vs/browserLink - 200 null text/javascript; charset=UTF-8 287.5564ms
+2026-10-25 09:17:24.317 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/swagger/v1/swagger.json - null null
+2026-10-25 09:17:24.318 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-25 09:17:24.319 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 2 candidate(s) found for the request path '/swagger/v1/swagger.json'
+2026-10-25 09:17:24.319 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/swagger/favicon-32x32.png - null null
+2026-10-25 09:17:24.320 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-25 09:17:24.320 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/swagger/favicon-32x32.png'
+2026-10-25 09:17:24.320 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'swagger/{**path}' with route pattern 'swagger/{**path}' is valid for the request path '/swagger/favicon-32x32.png'
+2026-10-25 09:17:24.320 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'swagger/{**path}'
+2026-10-25 09:17:24.320 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-25 09:17:24.320 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-25 09:17:24.320 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'swagger/{**path}'
+2026-10-25 09:17:24.324 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'swagger/{**path}'
+2026-10-25 09:17:24.325 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/swagger/favicon-32x32.png - 200 628 image/png 5.5865ms
+2026-10-25 09:17:24.328 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'HTTP: GET, HEAD /swagger/{documentName}/swagger.{extension:regex(^(json|ya?ml)$)}' with route pattern '/swagger/{documentName}/swagger.{extension:regex(^(json|ya?ml)$)}' is valid for the request path '/swagger/v1/swagger.json'
+2026-10-25 09:17:24.328 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'swagger/{**path}' with route pattern 'swagger/{**path}' is valid for the request path '/swagger/v1/swagger.json'
+2026-10-25 09:17:24.328 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'HTTP: GET, HEAD /swagger/{documentName}/swagger.{extension:regex(^(json|ya?ml)$)}'
+2026-10-25 09:17:24.328 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-25 09:17:24.329 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-25 09:17:24.329 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HTTP: GET, HEAD /swagger/{documentName}/swagger.{extension:regex(^(json|ya?ml)$)}'
+2026-10-25 09:17:24.696 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HTTP: GET, HEAD /swagger/{documentName}/swagger.{extension:regex(^(json|ya?ml)$)}'
+2026-10-25 09:17:24.698 +05:30 [DBG] Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18230571309580943386" disconnecting.
+2026-10-25 09:17:24.698 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 380.3263ms
+2026-10-25 09:17:42.198 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/api/Inventory - null null
+2026-10-25 09:17:42.198 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-25 09:17:42.199 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/api/Inventory'
+2026-10-25 09:17:42.200 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'Ecommerce2.API.Controllers.InventoryController.GetAllInventory (Ecommerce2)' with route pattern 'api/Inventory' is valid for the request path '/api/Inventory'
+2026-10-25 09:17:42.200 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'Ecommerce2.API.Controllers.InventoryController.GetAllInventory (Ecommerce2)'
+2026-10-25 09:17:42.200 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-25 09:17:42.201 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-25 09:17:42.201 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ecommerce2.API.Controllers.InventoryController.GetAllInventory (Ecommerce2)'
+2026-10-25 09:17:42.254 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAllInventory", controller = "Inventory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[DAL.DTO.InventoryVM]]] GetAllInventory() on controller Ecommerce2.API.Controllers.InventoryController (Ecommerce2).
+2026-10-25 09:17:42.254 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of authorization filters (in the following order): ["None"]
+2026-10-25 09:17:42.254 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of resource filters (in the following order): ["None"]
+2026-10-25 09:17:42.255 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-10-25 09:17:42.255 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of exception filters (in the following order): ["None"]
+2026-10-25 09:17:42.255 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-10-25 09:17:42.255 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing controller factory for controller Ecommerce2.API.Controllers.InventoryController (Ecommerce2)
+2026-10-25 09:17:42.664 +05:30 [DBG] Microsoft.EntityFrameworkCore.Infrastructure - An 'IServiceProvider' was created for internal use by Entity Framework.
+2026-10-25 09:17:42.747 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed controller factory for controller Ecommerce2.API.Controllers.InventoryController (Ecommerce2)
+2026-10-25 09:17:42.747 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:17:42.747 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:17:42.747 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:17:42.747 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:17:42.748 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing action method Ecommerce2.API.Controllers.InventoryController.GetAllInventory (Ecommerce2) - Validation state: "Valid"
+2026-10-25 09:17:42.760 +05:30 [INF] ecommerce_application.SERVICES.InventoryService - InventoryService: GetAllInventoryAsync called
+2026-10-25 09:17:45.142 +05:30 [DBG] Microsoft.EntityFrameworkCore.Model.Validation - The property 'CartItemsModel.CartModelId' was created in shadow state because there are no eligible CLR members with a matching name.
+2026-10-25 09:17:45.446 +05:30 [DBG] Microsoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 10.0.12 initialized 'EcommerceDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:10.0.12' with options: EngineType=SqlServer 
+2026-10-25 09:17:45.579 +05:30 [DBG] Microsoft.EntityFrameworkCore.Query - Compiling query expression: 
+'DbSet<Products>()
+    .Where(p => p.IsActive)
+    .OrderByDescending(p => p.Id)
+    .Select(p => new InventoryVM{ 
+        ProductId = p.Id, 
+        ProductName = p.Name, 
+        Quantity = p.Quantity, 
+        UpdatedAt = p.UpdatedAt 
+    }
+    )'
+2026-10-25 09:17:46.412 +05:30 [DBG] Microsoft.EntityFrameworkCore.Query - Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<InventoryVM>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            ProductId -> 0
+            ProductName -> 1
+            Quantity -> 2
+            UpdatedAt -> 3
+        SELECT p.Id AS ProductId, p.Name AS ProductName, p.Quantity, p.UpdatedAt
+        FROM Products AS p
+        WHERE p.IsActive
+        ORDER BY p.Id DESC) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            ProductId -> 0
+            ProductName -> 1
+            Quantity -> 2
+            UpdatedAt -> 3
+        SELECT p.Id AS ProductId, p.Name AS ProductName, p.Quantity, p.UpdatedAt
+        FROM Products AS p
+        WHERE p.IsActive
+        ORDER BY p.Id DESC, 
+        False, 
+        MultipleParameters
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        int? value1;
+        string value2;
+        int? value3;
+        DateTime? value4;
+        value1 = (int?)dataReader.GetInt32(0);
+        value2 = dataReader.GetString(1);
+        value3 = (int?)dataReader.GetInt32(2);
+        value4 = (DateTime?)dataReader.GetDateTime(3);
+        return new InventoryVM{ 
+            ProductId = (int)value1, 
+            ProductName = value2, 
+            Quantity = (int)value3, 
+            UpdatedAt = (DateTime)value4 
+        }
+        ;
+    }, 
+    contextType: ecommerce_application.DATA.EcommerceDbContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)'
+2026-10-25 09:17:46.515 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Creating DbConnection.
+2026-10-25 09:17:46.569 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Created DbConnection. (48ms).
+2026-10-25 09:17:46.580 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opening connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:17:47.318 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opened connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:17:47.327 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Creating DbCommand for 'ExecuteReader'.
+2026-10-25 09:17:47.345 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Created DbCommand for 'ExecuteReader' (11ms).
+2026-10-25 09:17:47.352 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Initialized DbCommand for 'ExecuteReader' (23ms).
+2026-10-25 09:17:47.369 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id] AS [ProductId], [p].[Name] AS [ProductName], [p].[Quantity], [p].[UpdatedAt]
+FROM [Products] AS [p]
+WHERE [p].[IsActive] = CAST(1 AS bit)
+ORDER BY [p].[Id] DESC
+2026-10-25 09:17:47.520 +05:30 [INF] Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (157ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id] AS [ProductId], [p].[Name] AS [ProductName], [p].[Quantity], [p].[UpdatedAt]
+FROM [Products] AS [p]
+WHERE [p].[IsActive] = CAST(1 AS bit)
+ORDER BY [p].[Id] DESC
+2026-10-25 09:17:47.572 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Closing data reader to 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:17:47.585 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - A data reader for 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 52ms reading results.
+2026-10-25 09:17:47.591 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closing connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:17:47.607 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closed connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' (16ms).
+2026-10-25 09:17:47.609 +05:30 [INF] ecommerce_application.SERVICES.InventoryService - InventoryService: Retrieved 2 inventory records
+2026-10-25 09:17:47.612 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action method Ecommerce2.API.Controllers.InventoryController.GetAllInventory (Ecommerce2), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4863.9108ms.
+2026-10-25 09:17:47.615 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:17:47.615 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:17:47.617 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:17:47.618 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:17:47.620 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:17:47.620 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:17:47.620 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2026-10-25 09:17:47.620 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-10-25 09:17:47.623 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2026-10-25 09:17:47.624 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2026-10-25 09:17:47.625 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-10-25 09:17:47.625 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select the first formatter in the output formatters list which can write the result.
+2026-10-25 09:17:47.625 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-10-25 09:17:47.625 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[DAL.DTO.InventoryVM, Ecommerce2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-25 09:17:47.663 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2026-10-25 09:17:47.663 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:17:47.663 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:17:47.673 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action Ecommerce2.API.Controllers.InventoryController.GetAllInventory (Ecommerce2) in 5414.3548ms
+2026-10-25 09:17:47.675 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ecommerce2.API.Controllers.InventoryController.GetAllInventory (Ecommerce2)'
+2026-10-25 09:17:47.682 +05:30 [DBG] Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "17942340916249362437" disconnecting.
+2026-10-25 09:17:47.691 +05:30 [DBG] Microsoft.EntityFrameworkCore.Infrastructure - 'EcommerceDbContext' disposed.
+2026-10-25 09:17:47.713 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Disposing connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:17:47.719 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Disposed connection to database '' on server '' (4ms).
+2026-10-25 09:17:47.720 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/api/Inventory - 200 null application/json; charset=utf-8 5522.4686ms
+2026-10-25 09:18:24.009 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44394/api/Cart/add-to-cart - application/json 62
+2026-10-25 09:18:24.010 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-25 09:18:24.020 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/api/Cart/add-to-cart'
+2026-10-25 09:18:24.020 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'Ecommerce2.API.Controllers.CartController.AddToCart (Ecommerce2)' with route pattern 'api/Cart/add-to-cart' is valid for the request path '/api/Cart/add-to-cart'
+2026-10-25 09:18:24.021 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'Ecommerce2.API.Controllers.CartController.AddToCart (Ecommerce2)'
+2026-10-25 09:18:24.021 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-25 09:18:24.029 +05:30 [DBG] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - The request has an origin header: 'https://localhost:44394'.
+2026-10-25 09:18:24.030 +05:30 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+2026-10-25 09:18:24.031 +05:30 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - Request origin https://localhost:44394 does not have permission to access the resource.
+2026-10-25 09:18:24.034 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-25 09:18:24.034 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ecommerce2.API.Controllers.CartController.AddToCart (Ecommerce2)'
+2026-10-25 09:18:24.069 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "AddToCart", controller = "Cart"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddToCart(DAL.DTO.AddToCartVM) on controller Ecommerce2.API.Controllers.CartController (Ecommerce2).
+2026-10-25 09:18:24.069 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of authorization filters (in the following order): ["None"]
+2026-10-25 09:18:24.069 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of resource filters (in the following order): ["None"]
+2026-10-25 09:18:24.069 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-10-25 09:18:24.070 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of exception filters (in the following order): ["None"]
+2026-10-25 09:18:24.070 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-10-25 09:18:24.070 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing controller factory for controller Ecommerce2.API.Controllers.CartController (Ecommerce2)
+2026-10-25 09:18:24.074 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed controller factory for controller Ecommerce2.API.Controllers.CartController (Ecommerce2)
+2026-10-25 09:18:24.095 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder - Attempting to bind parameter 'model' of type 'DAL.DTO.AddToCartVM' ...
+2026-10-25 09:18:24.103 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder - Attempting to bind parameter 'model' of type 'DAL.DTO.AddToCartVM' using the name '' in request data ...
+2026-10-25 09:18:24.105 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder - Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-10-25 09:18:24.182 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter - JSON input formatter succeeded, deserializing to type 'DAL.DTO.AddToCartVM'
+2026-10-25 09:18:24.182 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder - Done attempting to bind parameter 'model' of type 'DAL.DTO.AddToCartVM'.
+2026-10-25 09:18:24.183 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder - Done attempting to bind parameter 'model' of type 'DAL.DTO.AddToCartVM'.
+2026-10-25 09:18:24.183 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder - Attempting to validate the bound parameter 'model' of type 'DAL.DTO.AddToCartVM' ...
+2026-10-25 09:18:24.205 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder - Done attempting to validate the bound parameter 'model' of type 'DAL.DTO.AddToCartVM'.
+2026-10-25 09:18:24.207 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:18:24.207 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:18:24.207 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:18:24.207 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:18:24.208 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing action method Ecommerce2.API.Controllers.CartController.AddToCart (Ecommerce2) - Validation state: "Valid"
+2026-10-25 09:18:24.208 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing action method Ecommerce2.API.Controllers.CartController.AddToCart (Ecommerce2) with arguments (["DAL.DTO.AddToCartVM"])
+2026-10-25 09:18:24.221 +05:30 [INF] ecommerce_application.SERVICES.CartService - CartService: AddToCartAsync called with userId user-001, productId 11
+2026-10-25 09:18:24.267 +05:30 [DBG] Microsoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 10.0.12 initialized 'EcommerceDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:10.0.12' with options: EngineType=SqlServer 
+2026-10-25 09:18:24.282 +05:30 [DBG] Microsoft.EntityFrameworkCore.Query - Compiling query expression: 
+'DbSet<UserModel>()
+    .Any(u => u.Id == @userId)'
+2026-10-25 09:18:24.322 +05:30 [DBG] Microsoft.EntityFrameworkCore.Query - Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<bool>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Users AS u
+                WHERE u.Id == @userId)) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM Users AS u
+                WHERE u.Id == @userId), 
+            False, 
+            MultipleParameters
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            bool? value1;
+            value1 = dataReader.IsDBNull(0) ? default(bool?) : (bool?)dataReader.GetBoolean(0);
+            return (bool)value1;
+        }, 
+        contextType: ecommerce_application.DATA.EcommerceDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2026-10-25 09:18:24.387 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Creating DbConnection.
+2026-10-25 09:18:24.388 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Created DbConnection. (0ms).
+2026-10-25 09:18:24.388 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opening connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:24.389 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opened connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:24.390 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Creating DbCommand for 'ExecuteReader'.
+2026-10-25 09:18:24.390 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Created DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:24.397 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Initialized DbCommand for 'ExecuteReader' (7ms).
+2026-10-25 09:18:24.404 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Executing DbCommand [Parameters=[@userId='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Id] = @userId) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-10-25 09:18:24.459 +05:30 [INF] Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (62ms) [Parameters=[@userId='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Id] = @userId) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-10-25 09:18:24.468 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Closing data reader to 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:24.469 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - A data reader for 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 9ms reading results.
+2026-10-25 09:18:24.470 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closing connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:24.470 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closed connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' (0ms).
+2026-10-25 09:18:24.482 +05:30 [DBG] Microsoft.EntityFrameworkCore.Query - Compiling query expression: 
+'DbSet<Products>()
+    .Include(p => p.Category)
+    .FirstOrDefault(p => p.Id == @id)'
+2026-10-25 09:18:24.520 +05:30 [DBG] Microsoft.EntityFrameworkCore.Query - Including navigation: 'Products.Category'.
+2026-10-25 09:18:24.859 +05:30 [DBG] Microsoft.EntityFrameworkCore.Query - Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Products>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<Products>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Client Projections:
+                0 -> Dictionary<IPropertyBase, int> { [Property: Products.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Products.CategoryId (int) Required FK Index, 1], [Property: Products.CreatedAt (DateTime) Required, 2], [Property: Products.Description (string) Required MaxLength(1000), 3], [Property: Products.ImagePath (string) MaxLength(500), 4], [Property: Products.IsActive (bool) Required Index, 5], [Property: Products.Name (string) Required Index MaxLength(150), 6], [Property: Products.Price (decimal) Required, 7], [Property: Products.Quantity (int) Required, 8], [Property: Products.UpdatedAt (DateTime) Required, 9], [Property: Products.UserId (string) FK Index, 10] }
+                1 -> Dictionary<IPropertyBase, int> { [Property: Categories.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 11], [Property: Categories.Description (string) Required, 12], [Property: Categories.IsActive (bool) Required, 13], [Property: Categories.Name (string) Required Index MaxLength(100), 14], [Property: Categories.UserId (string) FK Index, 15] }
+            SELECT TOP(1) p.Id, p.CategoryId, p.CreatedAt, p.Description, p.ImagePath, p.IsActive, p.Name, p.Price, p.Quantity, p.UpdatedAt, p.UserId, c.Id, c.Description, c.IsActive, c.Name, c.UserId
+            FROM Products AS p
+            INNER JOIN Categories AS c ON p.CategoryId == c.Id
+            WHERE p.Id == @id) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Client Projections:
+                0 -> Dictionary<IPropertyBase, int> { [Property: Products.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Products.CategoryId (int) Required FK Index, 1], [Property: Products.CreatedAt (DateTime) Required, 2], [Property: Products.Description (string) Required MaxLength(1000), 3], [Property: Products.ImagePath (string) MaxLength(500), 4], [Property: Products.IsActive (bool) Required Index, 5], [Property: Products.Name (string) Required Index MaxLength(150), 6], [Property: Products.Price (decimal) Required, 7], [Property: Products.Quantity (int) Required, 8], [Property: Products.UpdatedAt (DateTime) Required, 9], [Property: Products.UserId (string) FK Index, 10] }
+                1 -> Dictionary<IPropertyBase, int> { [Property: Categories.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 11], [Property: Categories.Description (string) Required, 12], [Property: Categories.IsActive (bool) Required, 13], [Property: Categories.Name (string) Required Index MaxLength(100), 14], [Property: Categories.UserId (string) FK Index, 15] }
+            SELECT TOP(1) p.Id, p.CategoryId, p.CreatedAt, p.Description, p.ImagePath, p.IsActive, p.Name, p.Price, p.Quantity, p.UpdatedAt, p.UserId, c.Id, c.Description, c.IsActive, c.Name, c.UserId
+            FROM Products AS p
+            INNER JOIN Categories AS c ON p.CategoryId == c.Id
+            WHERE p.Id == @id, 
+            False, 
+            MultipleParameters
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            Products entity;
+            Categories entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                Products instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(Products);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: Products.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("ecommerce_application.MODELS.DB_MODELS.Products").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (Products)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: Products | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("ecommerce_application.MODELS.DB_MODELS.Products")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: Products | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("ecommerce_application.MODELS.DB_MODELS.Products")]: 
+                            {
+                                return 
+                                {
+                                    Products instance;
+                                    instance = new Products();
+                                    instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                    instance.<CategoryId>k__BackingField = dataReader.GetInt32(1);
+                                    instance.<CreatedAt>k__BackingField = dataReader.GetDateTime(2);
+                                    instance.<Description>k__BackingField = dataReader.GetString(3);
+                                    instance.<ImagePath>k__BackingField = dataReader.IsDBNull(4) ? default(string) : dataReader.GetString(4);
+                                    instance.<IsActive>k__BackingField = dataReader.GetBoolean(5);
+                                    instance.<Name>k__BackingField = dataReader.GetString(6);
+                                    instance.<Price>k__BackingField = dataReader.GetDecimal(7);
+                                    instance.<Quantity>k__BackingField = dataReader.GetInt32(8);
+                                    instance.<UpdatedAt>k__BackingField = dataReader.GetDateTime(9);
+                                    instance.<UserId>k__BackingField = dataReader.IsDBNull(10) ? default(string) : dataReader.GetString(10);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: Products | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("ecommerce_application.MODELS.DB_MODELS.Products")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(Products)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            entity = 
+            {
+                MaterializationContext materializationContext2;
+                IEntityType entityType2;
+                Categories instance2;
+                InternalEntityEntry entry2;
+                bool hasNullKey2;
+                materializationContext2 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance2 = default(Categories);
+                entry2 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: Categories.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("ecommerce_application.MODELS.DB_MODELS.Categories").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetInt32(11) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey2);
+                !(hasNullKey2) ? entry2 != default(InternalEntityEntry) ? 
+                {
+                    entityType2 = entry2.EntityType;
+                    return instance2 = (Categories)entry2.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot2;
+                    shadowSnapshot2 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType2 = [LIFTABLE Constant: EntityType: Categories | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("ecommerce_application.MODELS.DB_MODELS.Categories")];
+                    instance2 = switch (entityType2)
+                    {
+                        case [LIFTABLE Constant: EntityType: Categories | Resolver: namelessParameter{4} => namelessParameter{4}.Dependencies.Model.FindEntityType("ecommerce_application.MODELS.DB_MODELS.Categories")]: 
+                            {
+                                return 
+                                {
+                                    Categories instance;
+                                    instance = new Categories();
+                                    instance.<Id>k__BackingField = dataReader.GetInt32(11);
+                                    instance.<Description>k__BackingField = dataReader.GetString(12);
+                                    instance.<IsActive>k__BackingField = dataReader.GetBoolean(13);
+                                    instance.<Name>k__BackingField = dataReader.GetString(14);
+                                    instance.<UserId>k__BackingField = dataReader.IsDBNull(15) ? default(string) : dataReader.GetString(15);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext2.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: Categories | Resolver: namelessParameter{5} => namelessParameter{5}.Dependencies.Model.FindEntityType("ecommerce_application.MODELS.DB_MODELS.Categories")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(Categories)
+                    }
+                    ;
+                    entry2 = entityType2 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType2, 
+                        entity: instance2, 
+                        snapshot: shadowSnapshot2);
+                    return instance2;
+                } : default(void);
+                return instance2;
+            };
+            ShaperProcessingExpressionVisitor.IncludeReference<Products, Products, Categories>(
+                queryContext: queryContext, 
+                entity: entity, 
+                relatedEntity: entity, 
+                navigation: [LIFTABLE Constant: Navigation: Products.Category (Categories) Required ToPrincipal Categories Inverse: Products | Resolver: namelessParameter{6} => namelessParameter{6}.Dependencies.Model.FindEntityType("ecommerce_application.MODELS.DB_MODELS.Products").FindNavigation("Category")], 
+                inverseNavigation: [LIFTABLE Constant: Navigation: Categories.Products (ICollection<Products>) Collection ToDependent Products Inverse: Category | Resolver: namelessParameter{7} => namelessParameter{7}.Dependencies.Model.FindEntityType("ecommerce_application.MODELS.DB_MODELS.Categories").FindNavigation("Products")], 
+                fixup: (namelessParameter{8}, namelessParameter{9}) => 
+                {
+                    namelessParameter{8}.<Category>k__BackingField = namelessParameter{9};
+                    return [LIFTABLE Constant: ClrCollectionAccessor<Categories, ICollection<Products>, Products> | Resolver: namelessParameter{10} => namelessParameter{10}.Dependencies.Model.FindEntityType("ecommerce_application.MODELS.DB_MODELS.Categories").FindNavigation("Products").GetCollectionAccessor()].Add(
+                        entity: namelessParameter{9}, 
+                        value: namelessParameter{8}, 
+                        forMaterialization: True);
+                }, 
+                trackingQuery: True);
+            return entity;
+        }, 
+        contextType: ecommerce_application.DATA.EcommerceDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2026-10-25 09:18:24.872 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opening connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:24.873 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opened connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:24.873 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Creating DbCommand for 'ExecuteReader'.
+2026-10-25 09:18:24.873 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Created DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:24.874 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Initialized DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:24.875 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Executing DbCommand [Parameters=[@id='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[CreatedAt], [p].[Description], [p].[ImagePath], [p].[IsActive], [p].[Name], [p].[Price], [p].[Quantity], [p].[UpdatedAt], [p].[UserId], [c].[Id], [c].[Description], [c].[IsActive], [c].[Name], [c].[UserId]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+WHERE [p].[Id] = @id
+2026-10-25 09:18:24.892 +05:30 [INF] Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (18ms) [Parameters=[@id='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[CreatedAt], [p].[Description], [p].[ImagePath], [p].[IsActive], [p].[Name], [p].[Price], [p].[Quantity], [p].[UpdatedAt], [p].[UserId], [c].[Id], [c].[Description], [c].[IsActive], [c].[Name], [c].[UserId]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+WHERE [p].[Id] = @id
+2026-10-25 09:18:24.960 +05:30 [DBG] Microsoft.EntityFrameworkCore.ChangeTracking - Context 'EcommerceDbContext' started tracking 'Products' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-10-25 09:18:25.089 +05:30 [DBG] Microsoft.EntityFrameworkCore.ChangeTracking - The navigation 'Products.Category' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-10-25 09:18:25.108 +05:30 [DBG] Microsoft.EntityFrameworkCore.ChangeTracking - Context 'EcommerceDbContext' started tracking 'Categories' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-10-25 09:18:25.125 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Closing data reader to 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.125 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - A data reader for 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 233ms reading results.
+2026-10-25 09:18:25.125 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closing connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.125 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closed connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' (0ms).
+2026-10-25 09:18:25.132 +05:30 [INF] ecommerce_application.SERVICES.InventoryService - InventoryService: GetInventoryByProductIdAsync called with product ID 11
+2026-10-25 09:18:25.156 +05:30 [DBG] Microsoft.EntityFrameworkCore.Query - Compiling query expression: 
+'DbSet<Products>()
+    .FirstOrDefault(p => p.Id == @productId)'
+2026-10-25 09:18:25.171 +05:30 [DBG] Microsoft.EntityFrameworkCore.Query - Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Products>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<Products>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IPropertyBase, int> { [Property: Products.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Products.CategoryId (int) Required FK Index, 1], [Property: Products.CreatedAt (DateTime) Required, 2], [Property: Products.Description (string) Required MaxLength(1000), 3], [Property: Products.ImagePath (string) MaxLength(500), 4], [Property: Products.IsActive (bool) Required Index, 5], [Property: Products.Name (string) Required Index MaxLength(150), 6], [Property: Products.Price (decimal) Required, 7], [Property: Products.Quantity (int) Required, 8], [Property: Products.UpdatedAt (DateTime) Required, 9], [Property: Products.UserId (string) FK Index, 10] }
+            SELECT TOP(1) p.Id, p.CategoryId, p.CreatedAt, p.Description, p.ImagePath, p.IsActive, p.Name, p.Price, p.Quantity, p.UpdatedAt, p.UserId
+            FROM Products AS p
+            WHERE p.Id == @productId) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IPropertyBase, int> { [Property: Products.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Products.CategoryId (int) Required FK Index, 1], [Property: Products.CreatedAt (DateTime) Required, 2], [Property: Products.Description (string) Required MaxLength(1000), 3], [Property: Products.ImagePath (string) MaxLength(500), 4], [Property: Products.IsActive (bool) Required Index, 5], [Property: Products.Name (string) Required Index MaxLength(150), 6], [Property: Products.Price (decimal) Required, 7], [Property: Products.Quantity (int) Required, 8], [Property: Products.UpdatedAt (DateTime) Required, 9], [Property: Products.UserId (string) FK Index, 10] }
+            SELECT TOP(1) p.Id, p.CategoryId, p.CreatedAt, p.Description, p.ImagePath, p.IsActive, p.Name, p.Price, p.Quantity, p.UpdatedAt, p.UserId
+            FROM Products AS p
+            WHERE p.Id == @productId, 
+            False, 
+            MultipleParameters
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            Products entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                Products instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(Products);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: Products.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("ecommerce_application.MODELS.DB_MODELS.Products").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (Products)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: Products | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("ecommerce_application.MODELS.DB_MODELS.Products")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: Products | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("ecommerce_application.MODELS.DB_MODELS.Products")]: 
+                            {
+                                return 
+                                {
+                                    Products instance;
+                                    instance = new Products();
+                                    instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                    instance.<CategoryId>k__BackingField = dataReader.GetInt32(1);
+                                    instance.<CreatedAt>k__BackingField = dataReader.GetDateTime(2);
+                                    instance.<Description>k__BackingField = dataReader.GetString(3);
+                                    instance.<ImagePath>k__BackingField = dataReader.IsDBNull(4) ? default(string) : dataReader.GetString(4);
+                                    instance.<IsActive>k__BackingField = dataReader.GetBoolean(5);
+                                    instance.<Name>k__BackingField = dataReader.GetString(6);
+                                    instance.<Price>k__BackingField = dataReader.GetDecimal(7);
+                                    instance.<Quantity>k__BackingField = dataReader.GetInt32(8);
+                                    instance.<UpdatedAt>k__BackingField = dataReader.GetDateTime(9);
+                                    instance.<UserId>k__BackingField = dataReader.IsDBNull(10) ? default(string) : dataReader.GetString(10);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: Products | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("ecommerce_application.MODELS.DB_MODELS.Products")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(Products)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: ecommerce_application.DATA.EcommerceDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2026-10-25 09:18:25.177 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opening connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.177 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opened connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.177 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Creating DbCommand for 'ExecuteReader'.
+2026-10-25 09:18:25.177 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Created DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:25.178 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Initialized DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:25.178 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Executing DbCommand [Parameters=[@productId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[CreatedAt], [p].[Description], [p].[ImagePath], [p].[IsActive], [p].[Name], [p].[Price], [p].[Quantity], [p].[UpdatedAt], [p].[UserId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @productId
+2026-10-25 09:18:25.190 +05:30 [INF] Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (12ms) [Parameters=[@productId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[CreatedAt], [p].[Description], [p].[ImagePath], [p].[IsActive], [p].[Name], [p].[Price], [p].[Quantity], [p].[UpdatedAt], [p].[UserId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @productId
+2026-10-25 09:18:25.191 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Closing data reader to 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.191 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - A data reader for 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2026-10-25 09:18:25.191 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closing connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.191 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closed connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' (0ms).
+2026-10-25 09:18:25.198 +05:30 [DBG] Microsoft.EntityFrameworkCore.Query - Compiling query expression: 
+'DbSet<CartItemsModel>()
+    .FirstOrDefault(ci => ci.ProductId == @productId && ci.UserId == @userId)'
+2026-10-25 09:18:25.227 +05:30 [DBG] Microsoft.EntityFrameworkCore.Query - Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<CartItemsModel>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<CartItemsModel>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IPropertyBase, int> { [Property: CartItemsModel.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: CartItemsModel.AddedAt (DateTime) Required, 1], [Property: CartItemsModel.CartId (int?), 2], [Property: CartItemsModel.CartModelId (no field, int?) Shadow FK Index, 3], [Property: CartItemsModel.Price (decimal) Required, 4], [Property: CartItemsModel.ProductId (int) Required FK Index, 5], [Property: CartItemsModel.Quantity (int) Required, 6], [Property: CartItemsModel.UserId (string) Required FK Index, 7] }
+            SELECT TOP(1) c.Id, c.AddedAt, c.CartId, c.CartModelId, c.Price, c.ProductId, c.Quantity, c.UserId
+            FROM CartItems AS c
+            WHERE (c.ProductId == @productId) && (c.UserId == @userId)) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IPropertyBase, int> { [Property: CartItemsModel.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: CartItemsModel.AddedAt (DateTime) Required, 1], [Property: CartItemsModel.CartId (int?), 2], [Property: CartItemsModel.CartModelId (no field, int?) Shadow FK Index, 3], [Property: CartItemsModel.Price (decimal) Required, 4], [Property: CartItemsModel.ProductId (int) Required FK Index, 5], [Property: CartItemsModel.Quantity (int) Required, 6], [Property: CartItemsModel.UserId (string) Required FK Index, 7] }
+            SELECT TOP(1) c.Id, c.AddedAt, c.CartId, c.CartModelId, c.Price, c.ProductId, c.Quantity, c.UserId
+            FROM CartItems AS c
+            WHERE (c.ProductId == @productId) && (c.UserId == @userId), 
+            False, 
+            MultipleParameters
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            CartItemsModel entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                CartItemsModel instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(CartItemsModel);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: CartItemsModel.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("ecommerce_application.MODELS.DB_MODELS.CartItemsModel").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (CartItemsModel)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: CartItemsModel | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("ecommerce_application.MODELS.DB_MODELS.CartItemsModel")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: CartItemsModel | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("ecommerce_application.MODELS.DB_MODELS.CartItemsModel")]: 
+                            {
+                                shadowSnapshot1 = (ISnapshot)new Snapshot<int?>(dataReader.IsDBNull(3) ? default(int?) : (int?)dataReader.GetInt32(3));
+                                return 
+                                {
+                                    CartItemsModel instance;
+                                    instance = new CartItemsModel();
+                                    instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                    instance.<AddedAt>k__BackingField = dataReader.GetDateTime(1);
+                                    instance.<CartId>k__BackingField = dataReader.IsDBNull(2) ? default(int?) : (int?)dataReader.GetInt32(2);
+                                    instance.<Price>k__BackingField = dataReader.GetDecimal(4);
+                                    instance.<ProductId>k__BackingField = dataReader.GetInt32(5);
+                                    instance.<Quantity>k__BackingField = dataReader.GetInt32(6);
+                                    instance.<UserId>k__BackingField = dataReader.GetString(7);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: CartItemsModel | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("ecommerce_application.MODELS.DB_MODELS.CartItemsModel")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(CartItemsModel)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: ecommerce_application.DATA.EcommerceDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2026-10-25 09:18:25.245 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opening connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.245 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opened connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.247 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Creating DbCommand for 'ExecuteReader'.
+2026-10-25 09:18:25.247 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Created DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:25.247 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Initialized DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:25.248 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Executing DbCommand [Parameters=[@productId='?' (DbType = Int32), @userId='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AddedAt], [c].[CartId], [c].[CartModelId], [c].[Price], [c].[ProductId], [c].[Quantity], [c].[UserId]
+FROM [CartItems] AS [c]
+WHERE [c].[ProductId] = @productId AND [c].[UserId] = @userId
+2026-10-25 09:18:25.276 +05:30 [INF] Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (28ms) [Parameters=[@productId='?' (DbType = Int32), @userId='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AddedAt], [c].[CartId], [c].[CartModelId], [c].[Price], [c].[ProductId], [c].[Quantity], [c].[UserId]
+FROM [CartItems] AS [c]
+WHERE [c].[ProductId] = @productId AND [c].[UserId] = @userId
+2026-10-25 09:18:25.276 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Closing data reader to 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.277 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - A data reader for 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2026-10-25 09:18:25.277 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closing connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.277 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closed connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' (0ms).
+2026-10-25 09:18:25.390 +05:30 [DBG] Microsoft.EntityFrameworkCore.ChangeTracking - 'EcommerceDbContext' generated a temporary value for the property 'CartItemsModel.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-10-25 09:18:25.454 +05:30 [DBG] Microsoft.EntityFrameworkCore.ChangeTracking - The navigation 'CartItemsModel.Product' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-10-25 09:18:25.468 +05:30 [DBG] Microsoft.EntityFrameworkCore.ChangeTracking - Context 'EcommerceDbContext' started tracking 'CartItemsModel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-10-25 09:18:25.477 +05:30 [DBG] Microsoft.EntityFrameworkCore.Update - SaveChanges starting for 'EcommerceDbContext'.
+2026-10-25 09:18:25.484 +05:30 [DBG] Microsoft.EntityFrameworkCore.ChangeTracking - DetectChanges starting for 'EcommerceDbContext'.
+2026-10-25 09:18:25.624 +05:30 [DBG] Microsoft.EntityFrameworkCore.ChangeTracking - DetectChanges completed for 'EcommerceDbContext'.
+2026-10-25 09:18:25.804 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opening connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.804 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opened connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.809 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Creating DbCommand for 'ExecuteReader'.
+2026-10-25 09:18:25.809 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Created DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:25.813 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Initialized DbCommand for 'ExecuteReader' (3ms).
+2026-10-25 09:18:25.813 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p4='?' (DbType = Int32), @p5='?' (DbType = Int32), @p6='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItems] ([AddedAt], [CartId], [CartModelId], [Price], [ProductId], [Quantity], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-10-25 09:18:25.843 +05:30 [INF] Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (30ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p4='?' (DbType = Int32), @p5='?' (DbType = Int32), @p6='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItems] ([AddedAt], [CartId], [CartModelId], [Price], [ProductId], [Quantity], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-10-25 09:18:25.870 +05:30 [DBG] Microsoft.EntityFrameworkCore.ChangeTracking - The foreign key property 'CartItemsModel.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2026-10-25 09:18:25.885 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Closing data reader to 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.886 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - A data reader for 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 42ms reading results.
+2026-10-25 09:18:25.888 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closing connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.888 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closed connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' (0ms).
+2026-10-25 09:18:25.913 +05:30 [DBG] Microsoft.EntityFrameworkCore.ChangeTracking - An entity of type 'CartItemsModel' tracked by 'EcommerceDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-10-25 09:18:25.919 +05:30 [DBG] Microsoft.EntityFrameworkCore.Update - SaveChanges completed for 'EcommerceDbContext' with 1 entities written to the database.
+2026-10-25 09:18:25.921 +05:30 [INF] ecommerce_application.SERVICES.CartService - CartService: New cart item added - productId: 11, quantity: 6, price: 1900.00
+2026-10-25 09:18:25.927 +05:30 [INF] ecommerce_application.SERVICES.InventoryService - InventoryService: AdjustInventoryAsync called for product ID 11 with change -6
+2026-10-25 09:18:25.940 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opening connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.940 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opened connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.940 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Creating DbCommand for 'ExecuteReader'.
+2026-10-25 09:18:25.940 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Created DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:25.940 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Initialized DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:25.940 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Executing DbCommand [Parameters=[@productId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[CreatedAt], [p].[Description], [p].[ImagePath], [p].[IsActive], [p].[Name], [p].[Price], [p].[Quantity], [p].[UpdatedAt], [p].[UserId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @productId
+2026-10-25 09:18:25.947 +05:30 [INF] Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@productId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[CreatedAt], [p].[Description], [p].[ImagePath], [p].[IsActive], [p].[Name], [p].[Price], [p].[Quantity], [p].[UpdatedAt], [p].[UserId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @productId
+2026-10-25 09:18:25.947 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Closing data reader to 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.949 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - A data reader for 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 1ms reading results.
+2026-10-25 09:18:25.950 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closing connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.950 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closed connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' (0ms).
+2026-10-25 09:18:25.977 +05:30 [DBG] Microsoft.EntityFrameworkCore.ChangeTracking - An entity of type 'Products' tracked by 'EcommerceDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-10-25 09:18:25.977 +05:30 [DBG] Microsoft.EntityFrameworkCore.Update - SaveChanges starting for 'EcommerceDbContext'.
+2026-10-25 09:18:25.978 +05:30 [DBG] Microsoft.EntityFrameworkCore.ChangeTracking - DetectChanges starting for 'EcommerceDbContext'.
+2026-10-25 09:18:25.979 +05:30 [DBG] Microsoft.EntityFrameworkCore.ChangeTracking - DetectChanges completed for 'EcommerceDbContext'.
+2026-10-25 09:18:25.995 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opening connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.996 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opened connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:25.996 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Creating DbCommand for 'ExecuteReader'.
+2026-10-25 09:18:25.996 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Created DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:25.996 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Initialized DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:25.997 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Executing DbCommand [Parameters=[@p10='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 1000), @p3='?' (Size = 500), @p4='?' (DbType = Boolean), @p5='?' (Size = 150), @p6='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2), @p9='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Products] SET [CategoryId] = @p0, [CreatedAt] = @p1, [Description] = @p2, [ImagePath] = @p3, [IsActive] = @p4, [Name] = @p5, [Price] = @p6, [Quantity] = @p7, [UpdatedAt] = @p8, [UserId] = @p9
+OUTPUT 1
+WHERE [Id] = @p10;
+2026-10-25 09:18:26.169 +05:30 [INF] Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (172ms) [Parameters=[@p10='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 1000), @p3='?' (Size = 500), @p4='?' (DbType = Boolean), @p5='?' (Size = 150), @p6='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2), @p9='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Products] SET [CategoryId] = @p0, [CreatedAt] = @p1, [Description] = @p2, [ImagePath] = @p3, [IsActive] = @p4, [Name] = @p5, [Price] = @p6, [Quantity] = @p7, [UpdatedAt] = @p8, [UserId] = @p9
+OUTPUT 1
+WHERE [Id] = @p10;
+2026-10-25 09:18:26.173 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Closing data reader to 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:26.174 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - A data reader for 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 4ms reading results.
+2026-10-25 09:18:26.174 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closing connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:26.174 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closed connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' (0ms).
+2026-10-25 09:18:26.174 +05:30 [DBG] Microsoft.EntityFrameworkCore.ChangeTracking - An entity of type 'Products' tracked by 'EcommerceDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-10-25 09:18:26.175 +05:30 [DBG] Microsoft.EntityFrameworkCore.Update - SaveChanges completed for 'EcommerceDbContext' with 1 entities written to the database.
+2026-10-25 09:18:26.175 +05:30 [INF] ecommerce_application.SERVICES.InventoryService - InventoryService: Product 11 inventory adjusted by -6. New quantity: 0
+2026-10-25 09:18:26.176 +05:30 [INF] ecommerce_application.SERVICES.CartService - CartService: Inventory decreased by 6 for product 11
+2026-10-25 09:18:26.176 +05:30 [INF] ecommerce_application.SERVICES.CartService - CartService: Product 11 added to cart successfully
+2026-10-25 09:18:26.183 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action method Ecommerce2.API.Controllers.CartController.AddToCart (Ecommerce2), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 1974.8221ms.
+2026-10-25 09:18:26.183 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:18:26.183 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:18:26.183 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:18:26.183 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:18:26.183 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:18:26.183 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:18:26.183 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Before executing action result Microsoft.AspNetCore.Mvc.CreatedAtActionResult.
+2026-10-25 09:18:26.183 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-10-25 09:18:26.184 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - No information found on request to perform content negotiation.
+2026-10-25 09:18:26.184 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-10-25 09:18:26.184 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select the first formatter in the output formatters list which can write the result.
+2026-10-25 09:18:26.184 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-10-25 09:18:26.184 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing CreatedAtActionResult, writing value of type '<>f__AnonymousType8`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-10-25 09:18:26.240 +05:30 [DBG] Microsoft.AspNetCore.Routing.DefaultLinkGenerator - Found the endpoints ["Ecommerce2.API.Controllers.CartController.GetCartItemById (Ecommerce2)"] for address (cartItemId=[11],userId=[user-001],action=[GetCartItemById],controller=[Cart])
+2026-10-25 09:18:26.247 +05:30 [DBG] Microsoft.AspNetCore.Routing.DefaultLinkGenerator - Successfully processed template api/Cart/{cartItemId}/{userId} for Ecommerce2.API.Controllers.CartController.GetCartItemById (Ecommerce2) resulting in /api/Cart/11/user-001 and 
+2026-10-25 09:18:26.251 +05:30 [DBG] Microsoft.AspNetCore.Routing.DefaultLinkGenerator - Link generation succeeded for endpoints ["Ecommerce2.API.Controllers.CartController.GetCartItemById (Ecommerce2)"] with result /api/Cart/11/user-001
+2026-10-25 09:18:26.256 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - After executing action result Microsoft.AspNetCore.Mvc.CreatedAtActionResult.
+2026-10-25 09:18:26.257 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:18:26.258 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:18:26.259 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action Ecommerce2.API.Controllers.CartController.AddToCart (Ecommerce2) in 2189.1889ms
+2026-10-25 09:18:26.259 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ecommerce2.API.Controllers.CartController.AddToCart (Ecommerce2)'
+2026-10-25 09:18:26.260 +05:30 [DBG] Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18302628907913838611" disconnecting.
+2026-10-25 09:18:26.261 +05:30 [DBG] Microsoft.EntityFrameworkCore.Infrastructure - 'EcommerceDbContext' disposed.
+2026-10-25 09:18:26.262 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Disposing connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:26.262 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Disposed connection to database '' on server '' (0ms).
+2026-10-25 09:18:26.262 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44394/api/Cart/add-to-cart - 201 null application/json; charset=utf-8 2253.3481ms
+2026-10-25 09:18:37.623 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/api/Inventory - null null
+2026-10-25 09:18:37.624 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-25 09:18:37.624 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/api/Inventory'
+2026-10-25 09:18:37.624 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'Ecommerce2.API.Controllers.InventoryController.GetAllInventory (Ecommerce2)' with route pattern 'api/Inventory' is valid for the request path '/api/Inventory'
+2026-10-25 09:18:37.624 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'Ecommerce2.API.Controllers.InventoryController.GetAllInventory (Ecommerce2)'
+2026-10-25 09:18:37.624 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-25 09:18:37.624 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-25 09:18:37.624 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ecommerce2.API.Controllers.InventoryController.GetAllInventory (Ecommerce2)'
+2026-10-25 09:18:37.625 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAllInventory", controller = "Inventory"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[DAL.DTO.InventoryVM]]] GetAllInventory() on controller Ecommerce2.API.Controllers.InventoryController (Ecommerce2).
+2026-10-25 09:18:37.625 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of authorization filters (in the following order): ["None"]
+2026-10-25 09:18:37.625 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of resource filters (in the following order): ["None"]
+2026-10-25 09:18:37.625 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-10-25 09:18:37.625 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of exception filters (in the following order): ["None"]
+2026-10-25 09:18:37.625 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-10-25 09:18:37.626 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing controller factory for controller Ecommerce2.API.Controllers.InventoryController (Ecommerce2)
+2026-10-25 09:18:37.635 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed controller factory for controller Ecommerce2.API.Controllers.InventoryController (Ecommerce2)
+2026-10-25 09:18:37.635 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:18:37.635 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:18:37.635 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:18:37.635 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:18:37.635 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing action method Ecommerce2.API.Controllers.InventoryController.GetAllInventory (Ecommerce2) - Validation state: "Valid"
+2026-10-25 09:18:37.635 +05:30 [INF] ecommerce_application.SERVICES.InventoryService - InventoryService: GetAllInventoryAsync called
+2026-10-25 09:18:37.789 +05:30 [DBG] Microsoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 10.0.12 initialized 'EcommerceDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:10.0.12' with options: EngineType=SqlServer 
+2026-10-25 09:18:37.795 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Creating DbConnection.
+2026-10-25 09:18:37.795 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Created DbConnection. (0ms).
+2026-10-25 09:18:37.795 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opening connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:37.795 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opened connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:37.795 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Creating DbCommand for 'ExecuteReader'.
+2026-10-25 09:18:37.795 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Created DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:37.796 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Initialized DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:37.796 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id] AS [ProductId], [p].[Name] AS [ProductName], [p].[Quantity], [p].[UpdatedAt]
+FROM [Products] AS [p]
+WHERE [p].[IsActive] = CAST(1 AS bit)
+ORDER BY [p].[Id] DESC
+2026-10-25 09:18:37.812 +05:30 [INF] Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id] AS [ProductId], [p].[Name] AS [ProductName], [p].[Quantity], [p].[UpdatedAt]
+FROM [Products] AS [p]
+WHERE [p].[IsActive] = CAST(1 AS bit)
+ORDER BY [p].[Id] DESC
+2026-10-25 09:18:37.812 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Closing data reader to 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:37.812 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - A data reader for 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2026-10-25 09:18:37.812 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closing connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:37.812 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closed connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' (0ms).
+2026-10-25 09:18:37.812 +05:30 [INF] ecommerce_application.SERVICES.InventoryService - InventoryService: Retrieved 2 inventory records
+2026-10-25 09:18:37.812 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action method Ecommerce2.API.Controllers.InventoryController.GetAllInventory (Ecommerce2), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 177.1033ms.
+2026-10-25 09:18:37.812 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:18:37.812 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:18:37.812 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:18:37.812 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:18:37.812 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:18:37.812 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:18:37.813 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2026-10-25 09:18:37.813 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-10-25 09:18:37.813 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2026-10-25 09:18:37.813 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2026-10-25 09:18:37.813 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-10-25 09:18:37.813 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select the first formatter in the output formatters list which can write the result.
+2026-10-25 09:18:37.813 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-10-25 09:18:37.813 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[DAL.DTO.InventoryVM, Ecommerce2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-25 09:18:37.813 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2026-10-25 09:18:37.813 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:18:37.814 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:18:37.814 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action Ecommerce2.API.Controllers.InventoryController.GetAllInventory (Ecommerce2) in 188.3006ms
+2026-10-25 09:18:37.814 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ecommerce2.API.Controllers.InventoryController.GetAllInventory (Ecommerce2)'
+2026-10-25 09:18:37.814 +05:30 [DBG] Microsoft.EntityFrameworkCore.Infrastructure - 'EcommerceDbContext' disposed.
+2026-10-25 09:18:37.815 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Disposing connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:37.815 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Disposed connection to database '' on server '' (0ms).
+2026-10-25 09:18:37.815 +05:30 [DBG] Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18086456112915152913" disconnecting.
+2026-10-25 09:18:37.815 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/api/Inventory - 200 null application/json; charset=utf-8 191.7154ms
+2026-10-25 09:18:52.249 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44394/api/Cart/add-to-cart - application/json 62
+2026-10-25 09:18:52.249 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-25 09:18:52.251 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/api/Cart/add-to-cart'
+2026-10-25 09:18:52.251 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'Ecommerce2.API.Controllers.CartController.AddToCart (Ecommerce2)' with route pattern 'api/Cart/add-to-cart' is valid for the request path '/api/Cart/add-to-cart'
+2026-10-25 09:18:52.251 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'Ecommerce2.API.Controllers.CartController.AddToCart (Ecommerce2)'
+2026-10-25 09:18:52.251 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-25 09:18:52.252 +05:30 [DBG] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - The request has an origin header: 'https://localhost:44394'.
+2026-10-25 09:18:52.252 +05:30 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+2026-10-25 09:18:52.252 +05:30 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - Request origin https://localhost:44394 does not have permission to access the resource.
+2026-10-25 09:18:52.252 +05:30 [DBG] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was not authenticated.
+2026-10-25 09:18:52.252 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Ecommerce2.API.Controllers.CartController.AddToCart (Ecommerce2)'
+2026-10-25 09:18:52.252 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "AddToCart", controller = "Cart"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddToCart(DAL.DTO.AddToCartVM) on controller Ecommerce2.API.Controllers.CartController (Ecommerce2).
+2026-10-25 09:18:52.252 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of authorization filters (in the following order): ["None"]
+2026-10-25 09:18:52.252 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of resource filters (in the following order): ["None"]
+2026-10-25 09:18:52.252 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-10-25 09:18:52.252 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of exception filters (in the following order): ["None"]
+2026-10-25 09:18:52.252 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-10-25 09:18:52.252 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing controller factory for controller Ecommerce2.API.Controllers.CartController (Ecommerce2)
+2026-10-25 09:18:52.253 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed controller factory for controller Ecommerce2.API.Controllers.CartController (Ecommerce2)
+2026-10-25 09:18:52.257 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder - Attempting to bind parameter 'model' of type 'DAL.DTO.AddToCartVM' ...
+2026-10-25 09:18:52.257 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder - Attempting to bind parameter 'model' of type 'DAL.DTO.AddToCartVM' using the name '' in request data ...
+2026-10-25 09:18:52.257 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder - Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-10-25 09:18:52.258 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter - JSON input formatter succeeded, deserializing to type 'DAL.DTO.AddToCartVM'
+2026-10-25 09:18:52.258 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder - Done attempting to bind parameter 'model' of type 'DAL.DTO.AddToCartVM'.
+2026-10-25 09:18:52.258 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder - Done attempting to bind parameter 'model' of type 'DAL.DTO.AddToCartVM'.
+2026-10-25 09:18:52.259 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder - Attempting to validate the bound parameter 'model' of type 'DAL.DTO.AddToCartVM' ...
+2026-10-25 09:18:52.259 +05:30 [DBG] Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder - Done attempting to validate the bound parameter 'model' of type 'DAL.DTO.AddToCartVM'.
+2026-10-25 09:18:52.259 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:18:52.259 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:18:52.259 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:18:52.259 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:18:52.259 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing action method Ecommerce2.API.Controllers.CartController.AddToCart (Ecommerce2) - Validation state: "Valid"
+2026-10-25 09:18:52.259 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing action method Ecommerce2.API.Controllers.CartController.AddToCart (Ecommerce2) with arguments (["DAL.DTO.AddToCartVM"])
+2026-10-25 09:18:52.260 +05:30 [INF] ecommerce_application.SERVICES.CartService - CartService: AddToCartAsync called with userId user-001, productId 11
+2026-10-25 09:18:52.265 +05:30 [DBG] Microsoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 10.0.12 initialized 'EcommerceDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:10.0.12' with options: EngineType=SqlServer 
+2026-10-25 09:18:52.266 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Creating DbConnection.
+2026-10-25 09:18:52.266 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Created DbConnection. (0ms).
+2026-10-25 09:18:52.266 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opening connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:52.267 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opened connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:52.267 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Creating DbCommand for 'ExecuteReader'.
+2026-10-25 09:18:52.267 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Created DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:52.267 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Initialized DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:52.267 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Executing DbCommand [Parameters=[@userId='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Id] = @userId) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-10-25 09:18:52.274 +05:30 [INF] Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (7ms) [Parameters=[@userId='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Id] = @userId) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-10-25 09:18:52.274 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Closing data reader to 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:52.274 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - A data reader for 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2026-10-25 09:18:52.274 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closing connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:52.274 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closed connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' (0ms).
+2026-10-25 09:18:52.275 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opening connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:52.275 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opened connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:52.275 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Creating DbCommand for 'ExecuteReader'.
+2026-10-25 09:18:52.275 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Created DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:52.275 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Initialized DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:52.276 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Executing DbCommand [Parameters=[@id='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[CreatedAt], [p].[Description], [p].[ImagePath], [p].[IsActive], [p].[Name], [p].[Price], [p].[Quantity], [p].[UpdatedAt], [p].[UserId], [c].[Id], [c].[Description], [c].[IsActive], [c].[Name], [c].[UserId]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+WHERE [p].[Id] = @id
+2026-10-25 09:18:52.280 +05:30 [INF] Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@id='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[CreatedAt], [p].[Description], [p].[ImagePath], [p].[IsActive], [p].[Name], [p].[Price], [p].[Quantity], [p].[UpdatedAt], [p].[UserId], [c].[Id], [c].[Description], [c].[IsActive], [c].[Name], [c].[UserId]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+WHERE [p].[Id] = @id
+2026-10-25 09:18:52.281 +05:30 [DBG] Microsoft.EntityFrameworkCore.ChangeTracking - Context 'EcommerceDbContext' started tracking 'Products' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-10-25 09:18:52.282 +05:30 [DBG] Microsoft.EntityFrameworkCore.ChangeTracking - The navigation 'Products.Category' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-10-25 09:18:52.282 +05:30 [DBG] Microsoft.EntityFrameworkCore.ChangeTracking - Context 'EcommerceDbContext' started tracking 'Categories' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2026-10-25 09:18:52.283 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Closing data reader to 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:52.283 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - A data reader for 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 2ms reading results.
+2026-10-25 09:18:52.283 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closing connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:52.283 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closed connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' (0ms).
+2026-10-25 09:18:52.283 +05:30 [INF] ecommerce_application.SERVICES.InventoryService - InventoryService: GetInventoryByProductIdAsync called with product ID 11
+2026-10-25 09:18:52.284 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opening connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:52.284 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Opened connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:52.284 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Creating DbCommand for 'ExecuteReader'.
+2026-10-25 09:18:52.284 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Created DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:52.284 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Initialized DbCommand for 'ExecuteReader' (0ms).
+2026-10-25 09:18:52.284 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Executing DbCommand [Parameters=[@productId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[CreatedAt], [p].[Description], [p].[ImagePath], [p].[IsActive], [p].[Name], [p].[Price], [p].[Quantity], [p].[UpdatedAt], [p].[UserId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @productId
+2026-10-25 09:18:52.287 +05:30 [INF] Microsoft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@productId='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CategoryId], [p].[CreatedAt], [p].[Description], [p].[ImagePath], [p].[IsActive], [p].[Name], [p].[Price], [p].[Quantity], [p].[UpdatedAt], [p].[UserId]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @productId
+2026-10-25 09:18:52.287 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - Closing data reader to 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:52.287 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Command - A data reader for 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2026-10-25 09:18:52.287 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closing connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:52.288 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Closed connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB' (0ms).
+2026-10-25 09:18:52.419 +05:30 [ERR] ecommerce_application.SERVICES.CartService - CartService: Error in AddToCartAsync
+System.InvalidOperationException: Insufficient inventory. Available: 0, Requested: 1
+   at ecommerce_application.SERVICES.CartService.AddToCartAsync(String userId, Int32 productId, Int32 quantity) in C:\Users\AbhinaKrishnam\source\repos\Ecommerce2\Ecommerce2\BLL\Services\CartService.cs:line 94
+2026-10-25 09:18:52.636 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action method Ecommerce2.API.Controllers.CartController.AddToCart (Ecommerce2), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 376.4982ms.
+2026-10-25 09:18:52.636 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:18:52.636 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2026-10-25 09:18:52.636 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:18:52.636 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2026-10-25 09:18:52.636 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:18:52.636 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:18:52.636 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Before executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult.
+2026-10-25 09:18:52.637 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-10-25 09:18:52.637 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - No information found on request to perform content negotiation.
+2026-10-25 09:18:52.637 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-10-25 09:18:52.637 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select the first formatter in the output formatters list which can write the result.
+2026-10-25 09:18:52.637 +05:30 [DBG] Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-10-25 09:18:52.637 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-10-25 09:18:52.642 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - After executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult.
+2026-10-25 09:18:52.643 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:18:52.643 +05:30 [VRB] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2026-10-25 09:18:52.643 +05:30 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action Ecommerce2.API.Controllers.CartController.AddToCart (Ecommerce2) in 390.226ms
+2026-10-25 09:18:52.643 +05:30 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Ecommerce2.API.Controllers.CartController.AddToCart (Ecommerce2)'
+2026-10-25 09:18:52.643 +05:30 [DBG] Microsoft.EntityFrameworkCore.Infrastructure - 'EcommerceDbContext' disposed.
+2026-10-25 09:18:52.643 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Disposing connection to database 'EcommerceDataBase11abhi' on server '(localdb)\MSSQLLocalDB'.
+2026-10-25 09:18:52.643 +05:30 [DBG] Microsoft.EntityFrameworkCore.Database.Connection - Disposed connection to database '' on server '' (0ms).
+2026-10-25 09:18:52.643 +05:30 [DBG] Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18086456112915152915" disconnecting.
+2026-10-25 09:18:52.643 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44394/api/Cart/add-to-cart - 400 null application/json; charset=utf-8 395.2959ms

@@ -1,0 +1,31 @@
+# Visual Studio cache files
+.vs/
+.vscode/
+*.vsidx
+
+# Build artifacts
+bin/
+obj/
+*.dll
+*.exe
+*.o
+*.so
+
+# IDE
+*.user
+*.sln.iml
+.idea/
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db

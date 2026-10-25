@@ -1,0 +1,77 @@
+2026-10-18 13:28:12.248 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 OPTIONS https://localhost:44394/api/Address/user - null null
+2026-10-18 13:28:12.264 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 OPTIONS https://localhost:44394/api/Address/user - null null
+2026-10-18 13:28:12.374 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-18 13:28:12.374 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-18 13:28:12.375 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - No candidates found for the request path '/api/Address/user'
+2026-10-18 13:28:12.376 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request did not match any endpoints
+2026-10-18 13:28:12.375 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - No candidates found for the request path '/api/Address/user'
+2026-10-18 13:28:12.376 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request did not match any endpoints
+2026-10-18 13:28:12.377 +05:30 [DBG] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - The request has an origin header: 'http://localhost:3002'.
+2026-10-18 13:28:12.377 +05:30 [DBG] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - The request has an origin header: 'http://localhost:3002'.
+2026-10-18 13:28:12.381 +05:30 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+2026-10-18 13:28:12.381 +05:30 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+2026-10-18 13:28:12.381 +05:30 [DBG] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - The request is a preflight request.
+2026-10-18 13:28:12.381 +05:30 [DBG] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - The request is a preflight request.
+2026-10-18 13:28:12.382 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 OPTIONS https://localhost:44394/api/Address/user - 204 null null 118.1728ms
+2026-10-18 13:28:12.382 +05:30 [DBG] Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18158513711248048262" disconnecting.
+2026-10-18 13:28:12.382 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 OPTIONS https://localhost:44394/api/Address/user - 204 null null 143.3436ms
+2026-10-18 13:28:12.486 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/api/Address/user - application/json null
+2026-10-18 13:28:12.486 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-18 13:28:12.487 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - No candidates found for the request path '/api/Address/user'
+2026-10-18 13:28:12.489 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request did not match any endpoints
+2026-10-18 13:28:12.493 +05:30 [DBG] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - The request has an origin header: 'http://localhost:3002'.
+2026-10-18 13:28:12.493 +05:30 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+2026-10-18 13:28:12.516 +05:30 [INF] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '16-10-2026 10:20:18', Current time (UTC): '18-10-2026 07:58:12'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-10-18 13:28:12.821 +05:30 [INF] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '16-10-2026 10:20:18', Current time (UTC): '18-10-2026 07:58:12'.
+2026-10-18 13:28:12.831 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/api/Address/user - 404 null null 345.5293ms
+2026-10-18 13:28:12.835 +05:30 [DBG] Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18158513711248048264" disconnecting.
+2026-10-18 13:28:12.846 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44394/api/Address/user, Response status code: 404
+2026-10-18 13:28:12.853 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44394/api/Address/user - application/json null
+2026-10-18 13:28:12.862 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-18 13:28:12.862 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - No candidates found for the request path '/api/Address/user'
+2026-10-18 13:28:12.862 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request did not match any endpoints
+2026-10-18 13:28:12.862 +05:30 [DBG] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - The request has an origin header: 'http://localhost:3002'.
+2026-10-18 13:28:12.862 +05:30 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+2026-10-18 13:28:12.893 +05:30 [INF] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '16-10-2026 10:20:18', Current time (UTC): '18-10-2026 07:58:12'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-10-18 13:28:12.893 +05:30 [INF] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '16-10-2026 10:20:18', Current time (UTC): '18-10-2026 07:58:12'.
+2026-10-18 13:28:12.894 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44394/api/Address/user - 404 null null 40.6032ms
+2026-10-18 13:28:12.894 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44394/api/Address/user, Response status code: 404
+2026-10-18 13:28:22.657 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 OPTIONS https://localhost:44394/api/Address - null null
+2026-10-18 13:28:22.657 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-18 13:28:22.657 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/api/Address'
+2026-10-18 13:28:22.658 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint '405 HTTP Method Not Supported'
+2026-10-18 13:28:22.658 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-18 13:28:22.658 +05:30 [DBG] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - The request has an origin header: 'http://localhost:3002'.
+2026-10-18 13:28:22.658 +05:30 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+2026-10-18 13:28:22.658 +05:30 [DBG] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - The request is a preflight request.
+2026-10-18 13:28:22.658 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 OPTIONS https://localhost:44394/api/Address - 204 null null 1.4714ms
+2026-10-18 13:28:22.699 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44394/api/Address - application/json 150
+2026-10-18 13:28:22.700 +05:30 [VRB] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2026-10-18 13:28:22.700 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/api/Address'
+2026-10-18 13:28:22.700 +05:30 [DBG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'Ecommerce2.API.Controllers.AddressController.CreateAddress (Ecommerce2)' with route pattern 'api/Address' is valid for the request path '/api/Address'
+2026-10-18 13:28:22.700 +05:30 [DBG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'Ecommerce2.API.Controllers.AddressController.CreateAddress (Ecommerce2)'
+2026-10-18 13:28:22.700 +05:30 [VRB] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2026-10-18 13:28:22.700 +05:30 [DBG] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - The request has an origin header: 'http://localhost:3002'.
+2026-10-18 13:28:22.700 +05:30 [INF] Microsoft.AspNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+2026-10-18 13:28:22.847 +05:30 [INF] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '16-10-2026 10:20:18', Current time (UTC): '18-10-2026 07:58:22'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-10-18 13:28:22.847 +05:30 [INF] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '16-10-2026 10:20:18', Current time (UTC): '18-10-2026 07:58:22'.
+2026-10-18 13:28:23.010 +05:30 [DBG] Microsoft.AspNetCore.Authorization.AuthorizationMiddleware - Policy authentication schemes  did not succeed
+2026-10-18 13:28:23.053 +05:30 [INF] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService - Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-10-18 13:28:23.198 +05:30 [INF] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: Bearer was challenged.
+2026-10-18 13:28:23.231 +05:30 [INF] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44394/api/Address - 401 null null 531.3196ms
